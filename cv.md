@@ -32,8 +32,8 @@ https://github.com/DioStriker/rsschool-cv/tree/gh-pages
 ## EXPERIENCE
 
 **Flight Attendant**
-Rossiya Airlines
-May 2013 to September 2022 (9 years, 4 months)
+  Rossiya Airlines
+  May 2013 to September 2022 (9 years, 4 months)
 - 5 years Senior Flight Attendant experience
 - Completed more than 6000 hours of domestic and international flights
 
