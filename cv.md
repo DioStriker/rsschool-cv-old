@@ -25,7 +25,7 @@ I am 38 years old, I've graduated from Saint-Petersburg University of Civil Avia
 
 ## EXAMPLE PROJECT
 
-[**CV**](https://github.com/diostriker/rsschool-cv/tree/gh-pages)
+[**CV**](https://diostriker.github.io/rsschool-cv/cv)
 
 
 ## EXPERIENCE
