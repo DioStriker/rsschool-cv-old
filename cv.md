@@ -16,11 +16,11 @@ I graduated from Saint-Petersburg University of Civil Aviation in 2006 with Bach
 
 ## COMPUTER SKILLS
 
-- HTML basics
-- CSS basics
+- HTML5 basics
+- CSS3 basics
 - SCSS basics
 - Git basics
-- MS Office
+- Visual Studio Code
 
 
 ## EXAMPLE PROJECT

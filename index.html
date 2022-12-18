@@ -2,10 +2,89 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/style.css">
-        <title>CV</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cv</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="assets/icons/favicon.ico">
     </head>
     <body>
-        <h1 class="name">DK</h1>
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#code">Code</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#english">English</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container main-container">
+                <section class="section-profile" id="profile">
+                    <img class="profile-img" src="assets/img/bighead_rage.png" alt="avatar">
+                    <div class="profile-text">
+                        <h1 class="main-title">Damir Kurdiukov</h1>
+                        <h3 class="subtitle">Junior Front-End Developer</h3>
+                    </div>
+                </section>
+                <section class="section" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul class="section-list">
+                        <li class="section-item location-icon">Moscow, Russia</li>
+                        <li class="section-item phone-icon">123-456-7890</li>
+                        <li class="section-item discord-icon">Damir K</li>
+                    </ul>
+                </section>
+                <section class="section" id="summary">
+                    <h2 class="section-title">Summary</h2>
+                    <p>I graduated from Saint-Petersburg University of Civil Aviation in 2006 with Bachelor's degree in Organizational Management, and for the past 9 years I was working as a flight attendant. My English level is B2 Upper-Intermediate, I have developed somewhat high social skills thanks to my previous profession. As I felt I'd been sitting for too long with little to no evolution, I decided to change my occupation and dive into Front-End Development. Setting a new goals and fulfilling them is what motivates me to advance, and I am full of determination to do my best this time as well.</p>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="section-list">
+                        <li class="section-item decoration">HTML5 basics</li>
+                        <li class="section-item decoration">CSS3 basics</li>
+                        <li class="section-item decoration">SCSS basics</li>
+                        <li class="section-item decoration">Git basics</li>
+                        <li class="section-item decoration">Visual Studio Code</li>
+                    </ul>
+                </section>
+                <section class="section" id="code">
+                    <h2 class="section-title">Code</h2>
+                        <code>
+                            console.log('Hello, World!');
+                        </code>
+                </section>
+                <section class="section" id="project">
+                    <h2 class="section-title">Project</h2>
+                    <h3><a class="section-link" href="https://diostriker.github.io/rsschool-cv/cv">CV</a></h3>
+                </section>
+                <section class="section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+                    <h3 class="h3">Rossiya Airlines</h3>
+                    <ul class="section-list">
+                        <li class="section-item decoration">May 2013 to September 2022 (9 years, 4 months)</li>
+                        <li class="section-item decoration">5 years Senior Flight Attendant experience</li>
+                        <li class="section-item decoration">Completed more than 6000 hours of domestic and international flights</li>
+                    </ul>
+                </section>
+                <section class="section" id="english">
+                    <h2 class="section-title">English</h2>
+                    <h3>B2 Upper-Intermediate</h3>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container footer-container">
+                <a class="nav-link github" href="https://github.com/diostriker">DioStriker</a>
+                <div class="year">2022</div>
+                <a class="rsschool" href="https://rs.school/js/"></a>
+            </div>
+        </footer>
     </body>
 </html>
