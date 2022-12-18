@@ -27,7 +27,7 @@ body {
   padding: 0;
   min-height: 100vh;
   font-family: Quicksand, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   background-color: #fdfbf5;
   color: rgb(90, 90, 90);
 }
@@ -66,7 +66,7 @@ body {
 
 .main {
   color: rgb(48, 52, 56);
-  line-height: 25px;
+  line-height: 30px;
   margin: 0 0 auto 0;
 }
 
@@ -141,10 +141,6 @@ body {
   padding: 0 0 0 5px;
 }
 
-.section-link:hover {
-  color: red;
-}
-
 .section-item::before {
   position: absolute;
   left: 5px;
@@ -174,6 +170,20 @@ body {
   width: 12px;
   height: 2px;
   border: 1px solid rgb(85, 96, 107);
+}
+
+.pre {
+  padding: 0;
+  margin: 0;
+}
+
+pre {
+  display: block;
+  white-space: pre;
+}
+
+code {
+  margin: 0 0 0 5px;
 }
 
 .footer {
