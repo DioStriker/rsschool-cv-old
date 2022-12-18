@@ -144,7 +144,7 @@ body {
 .section-item::before {
   position: absolute;
   left: 5px;
-  margin: 3px 0 0 5px;
+  margin: 3px 0 0 0;
   width: 25px;
   height: 25px;
   background-repeat: no-repeat;
