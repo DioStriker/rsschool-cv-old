@@ -1,0 +1,174 @@
+@font-face {
+font-family: Quicksand;
+  src: url("assets/fonts/Quicksand/static/Quicksand-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-size: 18px;
+  font-family: Quicksand, sans-serif;
+  background-color: #fdfbf5;
+  color: rgb(100, 100, 100);
+}
+
+.header {
+  background-color: rgb(149, 162, 175);
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: rgb(100, 100, 100);
+}
+
+.main {
+  font-size: 18px;
+  color: slategray;
+  margin-bottom: auto;
+  line-height: 25px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 0 0 50px;
+  color: rgb(100, 100, 100);
+}
+
+.profile-img {
+  height: 215px;
+  width: 196px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px gray;
+  border: 2px solid white;
+}
+
+.section {
+  width: 50%;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  padding: 70px 25px 35px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  color: rgb(100, 100, 100);
+}
+
+.section-subtitle {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: rgb(100, 100, 100);
+}
+
+.section-list {
+  list-style: none;
+  position: relative;
+}
+
+.section-list li {
+  margin: 10px 0;
+}
+
+.section-link {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.section-link:hover {
+  color: red;
+}
+
+.section-item::before {
+  position: absolute;
+  background-repeat: no-repeat;
+  left: 0px;
+  width: 25px;
+  height: 25px;
+}
+
+
+.location::before {
+  content: "";
+  background-image: url(assets/icons/location.svg);
+}
+
+.phone::before {
+  content: "";
+  background-image: url(assets/icons/phone.svg);
+}
+
+.github::before {
+  content: "";
+  background-image: url(assets/icons/github.svg);
+}
+
+.discord::before {
+  content: "";
+  background-image: url(assets/icons/discord.svg);
+}
+
+.decoration::before {
+  content: "";
+  margin: 5px 0 0 0;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 1px solid slategray;
+}
+
+.footer {
+  background-color: rgb(149, 162, 175);
+  height: 86px;
+}
