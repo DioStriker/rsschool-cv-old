@@ -144,6 +144,7 @@ body {
 .section-item::before {
   position: absolute;
   left: 5px;
+  margin: 3px 0 0 5px;
   width: 25px;
   height: 25px;
   background-repeat: no-repeat;
@@ -166,7 +167,7 @@ body {
 
 .decoration::before {
   content: "";
-  margin: 12px 0 0 0;
+  margin: 14px 0 0 0;
   width: 12px;
   height: 2px;
   border: 1px solid rgb(85, 96, 107);
