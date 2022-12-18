@@ -160,11 +160,6 @@ body {
   background-image: url(assets/icons/phone.svg);
 }
 
-.github-icon::before {
-  content: "";
-  background-image: url(assets/icons/github.svg);
-}
-
 .discord-icon::before {
   content: "";
   background-image: url(assets/icons/discord.svg);
@@ -187,6 +182,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.year {
+  font-size: 20px;
+  color: #fff;
+}
+
+.github::before {
+  content: "";
+  background-image: url(assets/icons/github.svg);
+  padding: 0 0 0 25px;
 }
 
 .rsschool {
