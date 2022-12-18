@@ -141,6 +141,10 @@ body {
   padding: 0 0 0 5px;
 }
 
+.section-link:hover {
+  color: red;
+}
+
 .section-item::before {
   position: absolute;
   left: 5px;
