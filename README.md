@@ -1,4 +1,4 @@
-# rsschool-cv
+# rsschool-cv-old
 
 https://diostriker.github.io/rsschool-cv-old/
 
